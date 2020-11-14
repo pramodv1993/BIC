@@ -64,6 +64,7 @@ def dijkstra(fromNode, toNode, df):
             break
     path.insert(0, fromNode)
     if shortest_distance[toNode] != infinity:
-        print('Shortest distance is ' + str(shortest_distance[toNode]))
-        print('Shortest path -> ' + str(path))
+        # print('Shortest distance is ' + str(shortest_distance[toNode]))
+        # print('Shortest path -> ' + str(path))
+        pass
     return path

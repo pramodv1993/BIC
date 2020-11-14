@@ -1,0 +1,1001 @@
+day,gender,dest
+Wed,Female,X-ray room
+Wed,Male,Cafeteria
+Wed,Male,Cafeteria
+Thu,Female,ToiletII
+Wed,Male,Entrance
+Thu,Male,X-ray room
+Fri,Female,ToiletI
+Tue,Male,Entrance
+Wed,Male,Cafeteria
+Thu,Female,X-ray room
+Tue,Female,Entrance
+Wed,Female,X-ray room
+Wed,Male,X-ray room
+Tue,Male,Entrance
+Tue,Male,ToiletII
+Wed,Male,ToiletI
+Wed,Male,X-ray room
+Thu,Male,Entrance
+Fri,Male,Entrance
+Thu,Male,X-ray room
+Wed,Female,ToiletII
+Tue,Female,X-ray room
+Tue,Female,Cafeteria
+Thu,Female,X-ray room
+Tue,Male,X-ray room
+Fri,Female,Entrance
+Sun,Male,ToiletI
+Sat,Male,ToiletII
+Mon,Male,ToiletI
+Fri,Female,ToiletI
+Tue,Female,ToiletI
+Wed,Female,Cafeteria
+Sun,Male,ToiletI
+Sat,Male,ToiletII
+Mon,Male,Cafeteria
+Tue,Female,ToiletI
+Fri,Female,X-ray room
+Mon,Male,Entrance
+Sat,Female,ToiletI
+Sun,Male,Entrance
+Mon,Female,Entrance
+Thu,Female,Entrance
+Wed,Female,Cafeteria
+Fri,Male,ToiletII
+Thu,Female,ToiletII
+Mon,Male,Entrance
+Wed,Female,ToiletI
+Mon,Female,ToiletI
+Thu,Male,Entrance
+Sun,Male,ToiletII
+Wed,Male,X-ray room
+Tue,Female,Entrance
+Wed,Male,Cafeteria
+Wed,Male,ToiletII
+Sun,Female,X-ray room
+Sat,Male,ToiletII
+Mon,Female,Entrance
+Wed,Female,ToiletI
+Thu,Male,Entrance
+Tue,Male,ToiletII
+Fri,Female,X-ray room
+Fri,Male,Entrance
+Thu,Female,ToiletI
+Mon,Female,Cafeteria
+Tue,Male,X-ray room
+Mon,Female,ToiletI
+Tue,Female,ToiletI
+Fri,Male,Entrance
+Sun,Female,Cafeteria
+Fri,Male,Cafeteria
+Fri,Female,Entrance
+Sun,Female,ToiletII
+Sat,Male,Cafeteria
+Sun,Male,Cafeteria
+Wed,Male,Cafeteria
+Thu,Female,ToiletI
+Mon,Female,ToiletI
+Mon,Female,Cafeteria
+Tue,Female,Entrance
+Thu,Male,Cafeteria
+Mon,Female,X-ray room
+Tue,Female,ToiletI
+Sun,Male,ToiletII
+Tue,Female,ToiletI
+Mon,Male,ToiletI
+Fri,Female,ToiletI
+Wed,Female,X-ray room
+Mon,Male,ToiletI
+Sun,Female,Entrance
+Wed,Female,Entrance
+Sat,Male,X-ray room
+Tue,Female,Cafeteria
+Sat,Male,Cafeteria
+Wed,Male,ToiletII
+Sat,Male,Entrance
+Fri,Female,Cafeteria
+Sun,Male,X-ray room
+Sat,Male,ToiletI
+Fri,Female,Cafeteria
+Sat,Female,Entrance
+Sat,Male,X-ray room
+Wed,Male,X-ray room
+Tue,Male,ToiletI
+Sun,Female,Cafeteria
+Wed,Female,Entrance
+Sat,Male,Cafeteria
+Sat,Male,ToiletI
+Sun,Male,X-ray room
+Sat,Female,ToiletI
+Tue,Female,ToiletI
+Thu,Male,Cafeteria
+Sun,Male,X-ray room
+Thu,Female,ToiletII
+Fri,Female,ToiletII
+Mon,Female,ToiletII
+Sun,Male,ToiletII
+Tue,Male,ToiletII
+Thu,Male,ToiletII
+Sun,Male,Cafeteria
+Tue,Male,Cafeteria
+Sun,Male,ToiletI
+Sun,Female,ToiletI
+Tue,Female,ToiletII
+Tue,Female,Cafeteria
+Mon,Female,ToiletI
+Sat,Female,ToiletII
+Thu,Male,Cafeteria
+Thu,Male,Cafeteria
+Fri,Male,ToiletII
+Mon,Male,X-ray room
+Mon,Male,Cafeteria
+Sat,Female,Cafeteria
+Sat,Female,Entrance
+Wed,Female,ToiletI
+Tue,Female,ToiletI
+Sun,Female,Cafeteria
+Sun,Female,ToiletI
+Tue,Male,Entrance
+Wed,Male,X-ray room
+Tue,Male,Cafeteria
+Wed,Male,ToiletII
+Mon,Female,ToiletI
+Wed,Female,ToiletII
+Thu,Female,Cafeteria
+Sun,Male,ToiletI
+Mon,Male,X-ray room
+Tue,Female,Entrance
+Thu,Female,Cafeteria
+Sun,Male,ToiletI
+Sat,Female,ToiletI
+Fri,Female,Entrance
+Wed,Male,Entrance
+Tue,Male,X-ray room
+Thu,Male,ToiletI
+Sun,Male,ToiletI
+Tue,Female,X-ray room
+Fri,Female,ToiletII
+Sun,Female,Entrance
+Sat,Male,ToiletII
+Sat,Female,ToiletI
+Sun,Male,X-ray room
+Fri,Female,ToiletII
+Sun,Female,Entrance
+Wed,Female,Entrance
+Tue,Female,Cafeteria
+Sat,Male,Entrance
+Wed,Male,ToiletII
+Wed,Male,Entrance
+Tue,Male,ToiletII
+Sun,Female,X-ray room
+Sat,Female,Entrance
+Tue,Female,ToiletI
+Mon,Female,Entrance
+Thu,Female,Cafeteria
+Wed,Female,ToiletI
+Sat,Male,Cafeteria
+Sat,Male,ToiletI
+Mon,Female,ToiletI
+Wed,Male,ToiletI
+Sun,Female,Entrance
+Mon,Female,ToiletII
+Tue,Male,ToiletI
+Thu,Male,Cafeteria
+Wed,Male,Cafeteria
+Tue,Male,ToiletI
+Sat,Male,Cafeteria
+Tue,Male,ToiletI
+Tue,Female,ToiletII
+Sun,Male,ToiletI
+Sun,Male,Cafeteria
+Tue,Male,ToiletI
+Tue,Male,ToiletII
+Mon,Male,ToiletII
+Tue,Female,Entrance
+Tue,Male,X-ray room
+Thu,Male,Entrance
+Mon,Male,ToiletI
+Sun,Male,Cafeteria
+Sat,Female,ToiletI
+Thu,Female,Cafeteria
+Tue,Female,X-ray room
+Fri,Female,Entrance
+Fri,Male,Entrance
+Tue,Female,Cafeteria
+Tue,Male,Entrance
+Wed,Male,ToiletII
+Sun,Female,ToiletII
+Sat,Male,Cafeteria
+Fri,Male,Entrance
+Mon,Female,Cafeteria
+Wed,Female,Entrance
+Thu,Male,Entrance
+Fri,Female,Cafeteria
+Sat,Female,ToiletII
+Wed,Female,ToiletI
+Wed,Female,ToiletI
+Wed,Female,ToiletI
+Thu,Male,Cafeteria
+Sat,Male,ToiletII
+Thu,Male,Entrance
+Tue,Male,Cafeteria
+Sun,Male,Entrance
+Fri,Female,X-ray room
+Thu,Male,Cafeteria
+Tue,Female,X-ray room
+Sun,Male,ToiletI
+Sun,Male,ToiletII
+Wed,Female,ToiletI
+Mon,Male,ToiletI
+Sat,Male,Entrance
+Wed,Female,Cafeteria
+Fri,Female,Entrance
+Sat,Female,X-ray room
+Sat,Female,X-ray room
+Sun,Female,X-ray room
+Mon,Female,ToiletI
+Tue,Male,ToiletII
+Sun,Female,Entrance
+Wed,Female,Entrance
+Sun,Female,X-ray room
+Sat,Male,ToiletI
+Sat,Female,ToiletII
+Sat,Male,Cafeteria
+Sun,Female,X-ray room
+Thu,Female,Cafeteria
+Thu,Female,ToiletII
+Fri,Male,X-ray room
+Fri,Male,Cafeteria
+Sat,Male,Cafeteria
+Wed,Female,X-ray room
+Thu,Female,ToiletII
+Thu,Female,Cafeteria
+Mon,Female,Cafeteria
+Tue,Female,Entrance
+Mon,Male,X-ray room
+Wed,Male,Entrance
+Thu,Male,Cafeteria
+Sun,Female,Entrance
+Wed,Female,ToiletI
+Sun,Male,ToiletI
+Fri,Female,X-ray room
+Sat,Male,Cafeteria
+Sun,Female,Entrance
+Tue,Female,ToiletII
+Wed,Male,Entrance
+Fri,Female,ToiletI
+Sat,Male,Cafeteria
+Sat,Male,X-ray room
+Thu,Male,ToiletII
+Fri,Female,ToiletII
+Fri,Female,Cafeteria
+Fri,Male,X-ray room
+Sun,Female,ToiletII
+Sun,Female,ToiletII
+Wed,Male,ToiletII
+Sat,Male,Cafeteria
+Mon,Female,ToiletII
+Mon,Female,ToiletII
+Sun,Male,X-ray room
+Tue,Female,ToiletII
+Sat,Male,Entrance
+Fri,Female,Entrance
+Sun,Female,X-ray room
+Tue,Female,ToiletII
+Thu,Male,X-ray room
+Tue,Male,ToiletI
+Wed,Female,ToiletI
+Wed,Female,Cafeteria
+Sat,Male,ToiletI
+Thu,Male,ToiletI
+Wed,Female,Entrance
+Sat,Female,ToiletI
+Thu,Male,Cafeteria
+Fri,Female,X-ray room
+Fri,Female,Entrance
+Thu,Male,Entrance
+Sat,Female,X-ray room
+Mon,Male,ToiletII
+Tue,Male,ToiletI
+Sat,Female,Entrance
+Wed,Male,ToiletI
+Fri,Male,ToiletII
+Thu,Female,Cafeteria
+Fri,Male,Entrance
+Sat,Female,Entrance
+Thu,Male,X-ray room
+Thu,Male,ToiletI
+Wed,Male,Entrance
+Fri,Male,Cafeteria
+Tue,Female,Entrance
+Sun,Female,Cafeteria
+Mon,Male,ToiletI
+Wed,Male,X-ray room
+Sat,Female,ToiletII
+Wed,Male,Entrance
+Thu,Female,ToiletII
+Thu,Female,X-ray room
+Sat,Female,X-ray room
+Sun,Female,X-ray room
+Sun,Male,Entrance
+Wed,Male,ToiletI
+Wed,Male,X-ray room
+Tue,Female,Cafeteria
+Thu,Male,X-ray room
+Tue,Female,X-ray room
+Wed,Female,ToiletI
+Sat,Male,Entrance
+Thu,Female,ToiletII
+Mon,Male,X-ray room
+Tue,Female,Entrance
+Wed,Female,Cafeteria
+Thu,Male,ToiletII
+Fri,Male,ToiletII
+Sun,Female,Cafeteria
+Thu,Female,ToiletI
+Mon,Female,Entrance
+Wed,Female,ToiletI
+Fri,Female,Cafeteria
+Sun,Female,ToiletII
+Wed,Male,Cafeteria
+Sun,Male,ToiletI
+Wed,Female,ToiletI
+Sat,Female,Cafeteria
+Tue,Male,Entrance
+Wed,Female,ToiletII
+Thu,Female,ToiletII
+Fri,Male,ToiletI
+Tue,Female,ToiletI
+Sat,Male,Cafeteria
+Fri,Female,X-ray room
+Wed,Female,ToiletI
+Thu,Male,Cafeteria
+Fri,Male,X-ray room
+Wed,Male,Cafeteria
+Thu,Male,Entrance
+Wed,Male,Entrance
+Sat,Female,ToiletI
+Mon,Female,ToiletI
+Tue,Female,X-ray room
+Wed,Female,ToiletI
+Mon,Male,X-ray room
+Sat,Female,Cafeteria
+Sun,Male,Entrance
+Wed,Male,ToiletI
+Thu,Male,X-ray room
+Wed,Female,ToiletI
+Wed,Male,ToiletII
+Sat,Female,Entrance
+Sun,Female,Cafeteria
+Thu,Male,X-ray room
+Sat,Female,X-ray room
+Sun,Male,Cafeteria
+Sun,Male,ToiletI
+Mon,Male,Cafeteria
+Sun,Female,Entrance
+Tue,Male,ToiletI
+Thu,Female,X-ray room
+Mon,Female,Entrance
+Mon,Male,Entrance
+Mon,Female,X-ray room
+Mon,Male,Entrance
+Mon,Female,Cafeteria
+Fri,Male,Entrance
+Sun,Female,ToiletII
+Sat,Female,X-ray room
+Fri,Female,Cafeteria
+Mon,Female,Cafeteria
+Wed,Female,ToiletI
+Fri,Male,ToiletI
+Thu,Male,X-ray room
+Sun,Female,ToiletII
+Wed,Female,ToiletI
+Fri,Female,Entrance
+Sat,Female,Entrance
+Sun,Female,Entrance
+Thu,Male,X-ray room
+Thu,Female,Cafeteria
+Sat,Male,Entrance
+Fri,Male,Cafeteria
+Fri,Male,X-ray room
+Thu,Male,Cafeteria
+Fri,Female,ToiletI
+Sat,Female,Entrance
+Mon,Female,Cafeteria
+Fri,Male,ToiletI
+Mon,Female,X-ray room
+Thu,Female,Entrance
+Thu,Female,ToiletI
+Sun,Female,Cafeteria
+Tue,Female,X-ray room
+Sun,Male,ToiletII
+Sun,Male,Cafeteria
+Tue,Male,ToiletII
+Tue,Female,Entrance
+Tue,Female,ToiletII
+Wed,Female,X-ray room
+Sun,Male,Cafeteria
+Fri,Male,ToiletII
+Mon,Male,Cafeteria
+Sat,Male,Cafeteria
+Fri,Male,X-ray room
+Thu,Female,ToiletI
+Fri,Female,X-ray room
+Wed,Male,Cafeteria
+Sat,Female,Entrance
+Sat,Female,Entrance
+Thu,Female,ToiletI
+Sun,Male,X-ray room
+Sun,Male,ToiletI
+Tue,Female,Cafeteria
+Wed,Female,Cafeteria
+Mon,Male,ToiletI
+Thu,Female,Entrance
+Tue,Male,X-ray room
+Thu,Male,Entrance
+Sat,Female,X-ray room
+Thu,Male,X-ray room
+Sat,Female,ToiletII
+Mon,Male,ToiletI
+Tue,Female,ToiletII
+Tue,Female,ToiletI
+Thu,Female,ToiletI
+Sun,Female,ToiletI
+Thu,Male,ToiletII
+Tue,Male,Entrance
+Thu,Male,ToiletI
+Thu,Male,Cafeteria
+Mon,Male,ToiletI
+Sun,Female,ToiletII
+Sun,Female,ToiletI
+Fri,Male,Cafeteria
+Sat,Female,ToiletII
+Fri,Female,ToiletII
+Mon,Male,Entrance
+Fri,Female,X-ray room
+Mon,Female,ToiletI
+Sat,Male,Cafeteria
+Thu,Male,ToiletI
+Mon,Female,ToiletII
+Fri,Female,ToiletII
+Thu,Female,Entrance
+Tue,Female,X-ray room
+Mon,Male,ToiletI
+Sun,Female,ToiletII
+Sun,Male,ToiletI
+Fri,Male,X-ray room
+Sat,Male,ToiletII
+Fri,Female,Cafeteria
+Tue,Male,Entrance
+Fri,Male,ToiletII
+Wed,Male,ToiletI
+Sat,Female,Cafeteria
+Mon,Female,Entrance
+Sun,Female,X-ray room
+Sun,Male,ToiletI
+Wed,Male,Entrance
+Sun,Male,X-ray room
+Mon,Male,ToiletII
+Wed,Male,ToiletI
+Mon,Male,ToiletII
+Mon,Male,ToiletI
+Sat,Male,Entrance
+Thu,Female,X-ray room
+Mon,Male,Cafeteria
+Wed,Male,ToiletI
+Wed,Female,Entrance
+Sat,Female,ToiletI
+Tue,Male,Entrance
+Thu,Female,X-ray room
+Sat,Male,ToiletII
+Sun,Female,X-ray room
+Mon,Female,Cafeteria
+Sun,Female,X-ray room
+Wed,Female,X-ray room
+Mon,Female,X-ray room
+Tue,Male,Cafeteria
+Wed,Male,Cafeteria
+Sat,Male,ToiletI
+Sat,Female,Entrance
+Wed,Male,Cafeteria
+Sat,Male,Cafeteria
+Wed,Male,Entrance
+Sat,Male,Cafeteria
+Sat,Male,Entrance
+Sun,Female,Cafeteria
+Sun,Male,X-ray room
+Thu,Female,X-ray room
+Thu,Female,Cafeteria
+Wed,Female,ToiletII
+Fri,Male,Cafeteria
+Wed,Male,Cafeteria
+Tue,Female,Entrance
+Fri,Female,ToiletII
+Tue,Female,Cafeteria
+Thu,Male,Cafeteria
+Tue,Female,X-ray room
+Mon,Female,ToiletII
+Tue,Male,X-ray room
+Mon,Female,X-ray room
+Sat,Male,X-ray room
+Thu,Male,Entrance
+Fri,Female,ToiletII
+Fri,Female,Entrance
+Sat,Male,Cafeteria
+Mon,Female,ToiletII
+Mon,Female,Cafeteria
+Tue,Female,ToiletII
+Tue,Male,ToiletI
+Sat,Male,X-ray room
+Tue,Female,Entrance
+Tue,Female,ToiletII
+Thu,Female,ToiletII
+Wed,Female,Cafeteria
+Sat,Female,ToiletI
+Wed,Male,ToiletI
+Sat,Female,Cafeteria
+Sat,Female,Entrance
+Tue,Female,Cafeteria
+Mon,Male,ToiletII
+Sat,Male,X-ray room
+Fri,Male,ToiletI
+Mon,Female,ToiletI
+Mon,Female,Entrance
+Sat,Male,ToiletII
+Mon,Male,ToiletII
+Thu,Female,Entrance
+Fri,Male,Entrance
+Wed,Male,Cafeteria
+Sat,Male,X-ray room
+Sat,Male,Entrance
+Mon,Female,X-ray room
+Sun,Male,Entrance
+Wed,Male,X-ray room
+Fri,Male,ToiletII
+Thu,Male,X-ray room
+Wed,Female,X-ray room
+Fri,Female,Cafeteria
+Wed,Female,ToiletI
+Fri,Male,X-ray room
+Sun,Male,ToiletI
+Sun,Female,X-ray room
+Tue,Female,X-ray room
+Mon,Female,ToiletI
+Tue,Male,ToiletII
+Sat,Female,Cafeteria
+Wed,Female,X-ray room
+Thu,Female,Cafeteria
+Sat,Male,ToiletII
+Thu,Female,ToiletI
+Tue,Male,ToiletII
+Sun,Female,X-ray room
+Tue,Female,Entrance
+Mon,Female,ToiletI
+Mon,Female,Cafeteria
+Fri,Male,ToiletI
+Fri,Female,Cafeteria
+Sat,Male,ToiletII
+Tue,Female,Entrance
+Mon,Male,ToiletII
+Mon,Female,X-ray room
+Sun,Female,ToiletII
+Thu,Male,Entrance
+Wed,Female,Entrance
+Mon,Male,ToiletII
+Mon,Male,Cafeteria
+Thu,Male,ToiletI
+Thu,Female,ToiletI
+Sun,Female,X-ray room
+Sun,Male,ToiletII
+Sun,Male,X-ray room
+Tue,Female,Cafeteria
+Sat,Male,ToiletI
+Thu,Female,X-ray room
+Mon,Female,ToiletII
+Thu,Female,Entrance
+Mon,Male,Entrance
+Fri,Female,Entrance
+Thu,Male,Entrance
+Tue,Male,Entrance
+Tue,Male,Entrance
+Sun,Male,Entrance
+Tue,Female,X-ray room
+Fri,Female,Cafeteria
+Wed,Male,Cafeteria
+Sun,Female,ToiletII
+Thu,Male,Entrance
+Sun,Male,Cafeteria
+Thu,Male,X-ray room
+Sun,Male,ToiletI
+Thu,Male,Cafeteria
+Sat,Female,ToiletI
+Thu,Male,Cafeteria
+Wed,Male,ToiletII
+Mon,Female,X-ray room
+Tue,Female,Cafeteria
+Tue,Male,Entrance
+Thu,Female,Cafeteria
+Tue,Female,Cafeteria
+Mon,Male,Entrance
+Tue,Female,Entrance
+Tue,Female,Cafeteria
+Tue,Female,Entrance
+Fri,Male,Cafeteria
+Sat,Male,ToiletI
+Thu,Female,Entrance
+Fri,Male,Cafeteria
+Sun,Female,X-ray room
+Wed,Male,ToiletI
+Thu,Male,Entrance
+Tue,Female,ToiletII
+Thu,Male,Cafeteria
+Tue,Female,ToiletI
+Tue,Female,ToiletI
+Thu,Male,Cafeteria
+Fri,Male,Entrance
+Wed,Male,Entrance
+Sat,Male,X-ray room
+Wed,Male,Entrance
+Thu,Female,ToiletI
+Tue,Male,Cafeteria
+Fri,Female,X-ray room
+Fri,Male,ToiletII
+Mon,Female,Cafeteria
+Sun,Female,X-ray room
+Sat,Female,Cafeteria
+Fri,Female,Cafeteria
+Tue,Female,Cafeteria
+Wed,Female,Cafeteria
+Mon,Male,ToiletII
+Wed,Male,ToiletII
+Mon,Female,ToiletI
+Thu,Female,ToiletII
+Mon,Male,X-ray room
+Fri,Male,ToiletII
+Tue,Female,Entrance
+Wed,Female,Cafeteria
+Thu,Female,ToiletI
+Sun,Female,X-ray room
+Fri,Female,ToiletII
+Tue,Male,Cafeteria
+Mon,Male,Cafeteria
+Thu,Male,Cafeteria
+Wed,Male,Entrance
+Mon,Male,Cafeteria
+Fri,Female,X-ray room
+Wed,Male,ToiletII
+Wed,Male,X-ray room
+Thu,Female,Entrance
+Wed,Male,ToiletII
+Tue,Female,ToiletII
+Mon,Female,ToiletI
+Fri,Male,ToiletII
+Mon,Female,Cafeteria
+Sun,Male,ToiletI
+Sun,Male,Entrance
+Sat,Male,X-ray room
+Sat,Male,X-ray room
+Fri,Male,ToiletII
+Tue,Female,Cafeteria
+Mon,Male,ToiletII
+Fri,Female,ToiletII
+Sat,Female,Entrance
+Fri,Male,Cafeteria
+Mon,Female,Entrance
+Tue,Male,ToiletI
+Fri,Female,ToiletII
+Thu,Female,Cafeteria
+Thu,Female,ToiletII
+Mon,Male,X-ray room
+Wed,Female,ToiletII
+Sat,Female,ToiletI
+Sun,Female,ToiletI
+Sat,Female,ToiletII
+Thu,Female,X-ray room
+Sat,Female,ToiletII
+Sun,Female,Cafeteria
+Thu,Male,X-ray room
+Sun,Female,Entrance
+Sun,Male,Entrance
+Sat,Female,ToiletI
+Sat,Female,Entrance
+Sun,Male,Cafeteria
+Thu,Female,Entrance
+Sat,Female,ToiletII
+Tue,Male,X-ray room
+Tue,Male,ToiletI
+Thu,Female,ToiletI
+Mon,Male,Entrance
+Mon,Female,ToiletI
+Thu,Female,ToiletI
+Mon,Male,Cafeteria
+Wed,Female,Entrance
+Sat,Male,X-ray room
+Tue,Male,ToiletI
+Sat,Male,ToiletII
+Sat,Female,X-ray room
+Wed,Male,Entrance
+Sat,Male,ToiletII
+Sun,Female,Cafeteria
+Wed,Male,ToiletI
+Sun,Male,ToiletI
+Sat,Male,Entrance
+Sat,Male,Entrance
+Sun,Female,ToiletII
+Mon,Female,ToiletII
+Sun,Male,X-ray room
+Tue,Female,ToiletII
+Sat,Female,X-ray room
+Wed,Male,ToiletI
+Wed,Female,Cafeteria
+Wed,Female,Cafeteria
+Tue,Female,ToiletII
+Thu,Male,Cafeteria
+Mon,Male,Cafeteria
+Sun,Male,ToiletI
+Thu,Male,Entrance
+Wed,Male,ToiletI
+Sun,Female,Cafeteria
+Tue,Female,ToiletII
+Thu,Male,ToiletI
+Sat,Female,ToiletII
+Fri,Female,Cafeteria
+Thu,Female,ToiletI
+Thu,Male,Entrance
+Thu,Female,ToiletI
+Wed,Female,Cafeteria
+Sun,Female,ToiletII
+Fri,Male,Cafeteria
+Tue,Female,ToiletII
+Sun,Male,Entrance
+Thu,Male,Cafeteria
+Tue,Male,X-ray room
+Sat,Male,ToiletI
+Thu,Male,Entrance
+Thu,Male,ToiletII
+Sat,Female,Entrance
+Mon,Female,ToiletII
+Sun,Female,ToiletI
+Sat,Male,Cafeteria
+Fri,Female,ToiletI
+Tue,Male,X-ray room
+Sat,Female,Entrance
+Fri,Female,Cafeteria
+Sun,Male,ToiletI
+Sun,Male,Cafeteria
+Wed,Female,Entrance
+Fri,Female,ToiletI
+Thu,Male,X-ray room
+Wed,Female,Entrance
+Mon,Female,ToiletII
+Tue,Male,Entrance
+Fri,Male,Cafeteria
+Mon,Female,Cafeteria
+Wed,Female,ToiletI
+Thu,Female,ToiletI
+Tue,Male,X-ray room
+Sat,Female,ToiletI
+Wed,Female,ToiletI
+Sat,Male,Entrance
+Fri,Female,X-ray room
+Tue,Male,X-ray room
+Tue,Male,Entrance
+Sat,Female,Cafeteria
+Tue,Male,Cafeteria
+Mon,Female,ToiletI
+Mon,Female,Entrance
+Sat,Female,Entrance
+Thu,Female,Cafeteria
+Sun,Female,Entrance
+Sat,Male,ToiletI
+Tue,Male,ToiletII
+Sun,Female,Entrance
+Tue,Female,ToiletII
+Sat,Female,Cafeteria
+Tue,Male,X-ray room
+Fri,Male,X-ray room
+Tue,Female,ToiletI
+Thu,Male,Entrance
+Wed,Female,ToiletII
+Sat,Male,X-ray room
+Tue,Female,Cafeteria
+Sun,Male,X-ray room
+Fri,Male,ToiletI
+Wed,Male,ToiletI
+Thu,Male,ToiletI
+Tue,Female,Cafeteria
+Sat,Female,Entrance
+Sat,Male,ToiletI
+Thu,Female,Cafeteria
+Thu,Female,Cafeteria
+Fri,Male,X-ray room
+Fri,Female,ToiletI
+Tue,Male,ToiletII
+Sun,Male,Cafeteria
+Sun,Female,Entrance
+Mon,Male,X-ray room
+Mon,Female,ToiletII
+Mon,Male,X-ray room
+Sat,Female,ToiletI
+Mon,Male,Entrance
+Thu,Male,Entrance
+Wed,Male,Entrance
+Fri,Female,Entrance
+Sun,Male,X-ray room
+Fri,Male,ToiletII
+Sat,Female,ToiletI
+Sun,Male,Cafeteria
+Wed,Male,ToiletI
+Mon,Female,X-ray room
+Tue,Male,ToiletI
+Mon,Male,Entrance
+Thu,Female,ToiletI
+Wed,Male,X-ray room
+Sat,Male,ToiletII
+Sun,Female,Cafeteria
+Thu,Female,Entrance
+Thu,Female,Cafeteria
+Wed,Female,ToiletI
+Tue,Male,Entrance
+Mon,Male,Cafeteria
+Thu,Male,ToiletI
+Fri,Female,ToiletI
+Tue,Female,ToiletI
+Tue,Female,ToiletI
+Sun,Male,Entrance
+Wed,Female,ToiletII
+Wed,Female,Cafeteria
+Sun,Male,Entrance
+Sat,Male,Cafeteria
+Fri,Female,Entrance
+Tue,Female,X-ray room
+Wed,Female,Cafeteria
+Tue,Female,ToiletII
+Sun,Male,ToiletII
+Thu,Male,X-ray room
+Tue,Male,Entrance
+Mon,Female,X-ray room
+Wed,Female,Entrance
+Wed,Female,X-ray room
+Fri,Male,Entrance
+Sun,Female,X-ray room
+Wed,Male,Entrance
+Fri,Male,ToiletII
+Thu,Female,ToiletI
+Fri,Female,ToiletII
+Thu,Female,Cafeteria
+Mon,Female,ToiletII
+Sat,Female,ToiletI
+Wed,Female,X-ray room
+Fri,Male,ToiletII
+Fri,Female,ToiletI
+Sat,Female,Cafeteria
+Fri,Female,Cafeteria
+Tue,Male,Cafeteria
+Sat,Female,ToiletI
+Sat,Male,Cafeteria
+Mon,Female,X-ray room
+Fri,Male,ToiletI
+Mon,Male,Entrance
+Fri,Male,ToiletII
+Wed,Male,Entrance
+Sat,Female,X-ray room
+Fri,Male,ToiletII
+Sun,Female,Entrance
+Mon,Female,Cafeteria
+Thu,Female,ToiletII
+Sat,Male,ToiletII
+Mon,Female,ToiletI
+Wed,Female,Entrance
+Sun,Male,X-ray room
+Wed,Female,Entrance
+Thu,Female,X-ray room
+Tue,Female,ToiletI
+Wed,Female,Entrance
+Sun,Male,X-ray room
+Sun,Male,Cafeteria
+Thu,Male,X-ray room
+Sun,Male,Entrance
+Sat,Male,ToiletI
+Sun,Female,X-ray room
+Fri,Male,ToiletI
+Sat,Female,Entrance
+Mon,Female,Cafeteria
+Sat,Male,Cafeteria
+Mon,Male,ToiletI
+Thu,Male,X-ray room
+Fri,Male,ToiletI
+Mon,Male,ToiletII
+Mon,Female,ToiletII
+Sat,Female,ToiletII
+Sun,Female,ToiletII
+Tue,Male,Entrance
+Fri,Male,ToiletII
+Tue,Male,ToiletI
+Thu,Female,ToiletI
+Wed,Male,Entrance
+Wed,Male,X-ray room
+Sun,Female,ToiletII
+Thu,Female,ToiletI
+Fri,Female,Cafeteria
+Tue,Female,ToiletI
+Thu,Male,ToiletII
+Fri,Female,X-ray room
+Sat,Female,ToiletII
+Thu,Female,Entrance
+Sun,Male,ToiletI
+Mon,Male,X-ray room
+Wed,Female,ToiletII
+Fri,Male,ToiletI
+Fri,Male,ToiletII
+Sun,Male,Cafeteria
+Wed,Female,ToiletII
+Fri,Male,Cafeteria
+Thu,Male,ToiletI
+Fri,Female,X-ray room
+Sun,Female,Entrance
+Mon,Male,X-ray room
+Sat,Female,ToiletII
+Sat,Female,X-ray room
+Wed,Male,ToiletI
+Sun,Female,Cafeteria
+Tue,Female,ToiletII
+Fri,Female,Cafeteria
+Fri,Male,ToiletI
+Sun,Female,ToiletII
+Wed,Male,Entrance
+Sat,Female,X-ray room
+Sun,Male,ToiletII
+Wed,Male,Entrance
+Sat,Male,X-ray room
+Wed,Male,ToiletI
+Sun,Female,Entrance
+Fri,Male,X-ray room
+Fri,Male,Entrance
+Fri,Female,ToiletII
+Sat,Female,Cafeteria
+Fri,Male,ToiletI
+Sun,Female,ToiletII
+Sat,Female,Cafeteria
+Mon,Female,ToiletI
+Fri,Male,ToiletI
+Mon,Male,Cafeteria
+Thu,Female,ToiletI
+Fri,Male,ToiletII
+Tue,Female,Cafeteria
+Sat,Male,X-ray room
+Sun,Female,X-ray room
+Mon,Female,ToiletI
+Sat,Male,Cafeteria
+Fri,Female,Cafeteria
+Mon,Male,ToiletII
+Sun,Female,ToiletII
+Sat,Female,Entrance
+Sat,Female,X-ray room
+Sat,Male,Cafeteria
+Wed,Male,ToiletII
+Mon,Male,ToiletII
+Tue,Female,ToiletII
+Tue,Female,ToiletI
+Wed,Female,ToiletI
+Mon,Male,Cafeteria
+Sat,Male,ToiletI
+Sat,Female,Entrance
+Thu,Male,ToiletI
+Fri,Female,Cafeteria
+Tue,Female,X-ray room
+Mon,Female,Cafeteria
+Sun,Female,Entrance
+Tue,Female,X-ray room
+Sat,Female,ToiletII
+Fri,Male,ToiletII
+Fri,Male,ToiletII
+Mon,Female,Cafeteria
+Mon,Male,Entrance
+Wed,Male,Cafeteria
+Thu,Male,X-ray room
+Tue,Male,X-ray room
+Wed,Male,Cafeteria
+Sat,Female,ToiletII
+Mon,Male,ToiletII
