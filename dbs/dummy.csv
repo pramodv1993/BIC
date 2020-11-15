@@ -1,6 +1,0 @@
-from,to,dist,name,dir,rev_dir
-1,2,4,Toilet,take-right, take-left
-5,9,6,,go-back, go-straight
-6,8,2,EntranceI,take-left, take-right
-7,4,1,EntranceII,take-left, take-right
-10,2,9,X-Ray Room,go-straight, go-back
