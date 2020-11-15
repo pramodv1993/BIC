@@ -109,9 +109,9 @@ app.layout = html.Div([
                         html.Div(
                             [
                                 html.Img(
-                                    src="https://uploads-ssl.webflow.com/5836aa64e1025f0e4d9296d3/584041151141e61b0ad41460_Indoor%20Map%20Indoor%20Location%20St%20Olavs%20Hospital%20DEMO%201%20-%20360.gif")
-                            ],
-                            style={"width": "60%","padding": "10px"}
+                                    src="https://uploads-ssl.webflow.com/5836aa64e1025f0e4d9296d3/584041151141e61b0ad41460_Indoor%20Map%20Indoor%20Location%20St%20Olavs%20Hospital%20DEMO%201%20-%20360.gif"
+                                    ,style={'display': 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '45%'})
+                            ]
                         )
                     ]
                 ),
@@ -125,16 +125,15 @@ app.layout = html.Div([
                                         dcc.Graph(
                                             id="day_visit_histogram",
                                             figure=fig1,
-                                            style={"width": "50%"}
+                                            style={"width": "100%"}
                                         ),
                                         dcc.Graph(
                                             id="visitor_pattern",
                                             figure={},
-                                            style={"width": "50%"}
-                                        )
-                                    ],
-                                    style={"display": "flex"}
-                                )
+                                            style={"width": "100%"}
+                                        )],
+                                        style={"display": "flex"})
+
                             ]
                         )
                     ]
@@ -171,10 +170,10 @@ def calc_visitor_count_for_day(day, dest):
     startDate = datetime.datetime.now()
     times = []
     counts = []
-    for x in list(random_date(startDate,200)):
+    for x in list(random_date(startDate,24)):
         times.append(x.strftime("%d/%m/%y %H:%M"))
-    counts = random.sample(range(200, 500), len(times)//2)
-    counts.extend(random.sample(range(10, 250), len(times)//2+1))
+    counts = random.sample(range(30, 100), len(times)//2)
+    counts.extend(random.sample(range(10, 30), len(times)//2+1))
     res['count'] = counts
     res['time'] = times
     return res
@@ -240,7 +239,7 @@ def update_output(new_prev_loc, new_next_loc, new_to, new_from):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True,
+    app.run_server(debug=False,
                    host='0.0.0.0',
                    threaded=False
                    )
