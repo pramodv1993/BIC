@@ -11,7 +11,10 @@ import graph_computation
 # external layout
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # init
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
+                meta_tags=[{'name': 'viewport',
+                            'content': 'width=device-width, initial-scale=1.0, maximum-scale=1.2, minimum-scale=0.5,'}]
+                )
 loc_info = pd.read_csv('dbs/special_nodes.csv')
 graph = pd.read_csv("dbs/nodes.csv", index_col=None)
 directions = graph.set_index(['From', 'To']).to_dict()['direction']
@@ -22,8 +25,10 @@ encoded_klinik_logo = base64.b64encode(open('logos/klinik.png', 'rb').read())
 visit_df = pd.read_csv("dbs/visit_data.csv")
 df = visit_df.groupby(["day", "dest"]).count().reset_index()
 fig1 = px.bar(df, x='day', y='gender', color="dest",
-                    title='Histogram of daily visits for the past month',
-                    hover_name='day')
+              title='Visit count for the past week',
+              hover_name='day',
+              labels={"day": "Day of week", "dest": "Destination", "gender": "Visitor count"}
+              )
 
 app.layout = html.Div([
     # title and logo
@@ -91,6 +96,18 @@ app.layout = html.Div([
                     ]
                 ),
                 dcc.Tab(
+                    label="Show on map",
+                    children=[
+                        html.Div(
+                            [
+                                html.Img(
+                                    src="https://uploads-ssl.webflow.com/5836aa64e1025f0e4d9296d3/584041151141e61b0ad41460_Indoor%20Map%20Indoor%20Location%20St%20Olavs%20Hospital%20DEMO%201%20-%20360.gif")
+                            ],
+                            style={"width": "60%","padding": "10px"}
+                        )
+                    ]
+                ),
+                dcc.Tab(
                     label='Analytics',
                     children=[
                         html.Div(
@@ -143,6 +160,8 @@ prev_path = ['1', '2', '5', '9']
      dash.dependencies.Input('to', 'value'),
      dash.dependencies.Input('from', 'value')])
 def update_output(new_prev_loc, new_next_loc, new_to, new_from):
+    if new_to is None or new_from is None:
+        return dash.no_update
     global prev_loc, next_loc, curr_loc, prev_to, prev_from, prev_path
     # if prev or next was changed
     if prev_loc != new_prev_loc:
