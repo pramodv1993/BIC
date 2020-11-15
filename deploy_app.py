@@ -1,13 +1,18 @@
 import base64
 
 import dash
+import random
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 import plotly.express as px
-
+import plotly.graph_objects as go
 import graph_computation
+from random import randrange
+import datetime
 
+#empty_graph
+empty_graph = go.Figure()
 # external layout
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # init
@@ -26,10 +31,13 @@ visit_df = pd.read_csv("dbs/visit_data.csv")
 df = visit_df.groupby(["day", "dest"]).count().reset_index()
 fig1 = px.bar(df, x='day', y='gender', color="dest",
               title='Visit count for the past week',
-              hover_name='day',
-              labels={"day": "Day of week", "dest": "Destination", "gender": "Visitor count"}
-              )
-
+              labels={"day": "Day of week", "dest": "Destination", "gender": "Visitor count"},
+              hover_name='day', hover_data = ['day','dest'])
+loc_vs_color = {}
+for bar in fig1.data:
+    marker = bar['marker']
+    loc_vs_color[bar['offsetgroup']] = marker['color']
+#init app
 app.layout = html.Div([
     # title and logo
 
@@ -108,7 +116,7 @@ app.layout = html.Div([
                     ]
                 ),
                 dcc.Tab(
-                    label='Analytics',
+                    label='Staff View',
                     children=[
                         html.Div(
                             [
@@ -120,7 +128,7 @@ app.layout = html.Div([
                                             style={"width": "50%"}
                                         ),
                                         dcc.Graph(
-                                            id="dest_histogram",
+                                            id="visitor_pattern",
                                             figure={},
                                             style={"width": "50%"}
                                         )
@@ -152,6 +160,39 @@ prev_to = 'ToiletI'
 prev_from = 'ToiletII'
 prev_path = ['1', '2', '5', '9']
 
+def calc_visitor_count_for_day(day, dest):
+    def random_date(start,l):
+        current = start
+        while l >= 0:
+            current = current + datetime.timedelta(minutes=randrange(10))
+            yield current
+            l-=1
+    res = pd.DataFrame(columns= ['count', 'time'] )
+    startDate = datetime.datetime.now()
+    times = []
+    counts = []
+    for x in list(random_date(startDate,200)):
+        times.append(x.strftime("%d/%m/%y %H:%M"))
+    counts = random.sample(range(200, 500), len(times)//2)
+    counts.extend(random.sample(range(10, 250), len(times)//2+1))
+    res['count'] = counts
+    res['time'] = times
+    return res
+
+
+
+@app.callback(
+dash.dependencies.Output('visitor_pattern', 'figure'),
+[dash.dependencies.Input('day_visit_histogram','clickData')]
+)
+def update_visitor_pattern(selectedData):
+    if selectedData is None:
+        return empty_graph
+    day, dest = selectedData['points'][0]['customdata'][0],selectedData['points'][0]['customdata'][1]
+    df = calc_visitor_count_for_day(day, dest)
+    fig = px.line(df, x='time', y="count" ,title = f"Visitor pattern at location {dest} for {day}")
+    fig['data'][0]['line']['color'] = loc_vs_color[dest]
+    return fig
 
 @app.callback(
     dash.dependencies.Output('loc_img', 'children'),
@@ -182,13 +223,14 @@ def update_output(new_prev_loc, new_next_loc, new_to, new_from):
         prev_path = get_shortest_path(name_vs_node[prev_from], name_vs_node[prev_to])
         curr_loc = 0
 
-    new_img = base64.b64encode(open('locs/{}.JPG'.format(prev_path[curr_loc]), 'rb').read())
+    new_img = base64.b64encode(open('locs/{}.png'.format(prev_path[curr_loc]), 'rb').read())
     try:
         direction = directions[int(prev_path[curr_loc]), int(prev_path[curr_loc + 1])]
-        return [html.Img(src='data:image/png;base64,{}'.format(new_img.decode()),
-                         style={'display': 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '45%'}),
-                html.Div([direction])
-                ]
+        return [
+        html.Div([direction.upper()], style={'text-align':'center', 'font-size':'150%'}),
+        html.Img(src='data:image/png;base64,{}'.format(new_img.decode()),
+                         style={'display': 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '45%'})
+                         ]
 
     except Exception as e:
         print(e)
