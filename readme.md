@@ -1,3 +1,5 @@
+Solution as a part of the Hackathon organised Business + Innovation Center, Kaiserslautern
+
 Instruction to run the app:
 1. Install dependencies:
 
